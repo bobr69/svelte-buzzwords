@@ -11,10 +11,6 @@ export default class BWGenerator {
 		this.wordCount = this.words.length;
 	}
 
-	test() {
-		return "Sharing is caring :o)";
-	}
-
 	getRandomWord() {
 		const idx = Math.floor(Math.random() * Math.floor(this.wordCount));
 		return this.words[idx];
